@@ -1,0 +1,10 @@
+# ignore all directories & files in root dir
+/*
+# allow files in root dir
+!/.gitignore
+# allow directories in root dir
+!/src
+!/public
+# allow decendants in each allowed directories mentioned above
+!/src/*
+!/public/*
